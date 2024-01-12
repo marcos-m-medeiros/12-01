@@ -8,7 +8,10 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
+      <Stack.Navigator
+        initialRouteName="Login"
+        screenOptions={{ headerShown: false }}
+      >
         <Stack.Screen name="Cadastro" component={CadastroCliente} />
         <Stack.Screen name="Login" component={LoginCliente} />
       </Stack.Navigator>
