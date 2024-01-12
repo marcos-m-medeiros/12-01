@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA_HltEiS9G7aTHlk-SDqd3N4-MpbVe4sE",
-  authDomain: "rn-auth-173f6.firebaseapp.com",
-  projectId: "rn-auth-173f6",
-  storageBucket: "rn-auth-173f6.appspot.com",
-  messagingSenderId: "397525882361",
-  appId: "1:397525882361:web:45847c6f7b4923d1759928",
+  apiKey: "AIzaSyC8327nRgHwIaKbkUi7rUvX8ydb4yFhFfU",
+  authDomain: "rn-auth-71f96.firebaseapp.com",
+  projectId: "rn-auth-71f96",
+  storageBucket: "rn-auth-71f96.appspot.com",
+  messagingSenderId: "380616834168",
+  appId: "1:380616834168:web:2bc3af3e6d6a2cad4d418d",
 };
 
 const app = initializeApp(firebaseConfig);
